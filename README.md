@@ -20,7 +20,7 @@ limitations under the License.
 
 # iterAtanh
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create an [iterator][mdn-iterator-protocol] which iteratively computes the [hyperbolic arctangent][@stdlib/math/base/special/atanh].
 
@@ -141,6 +141,23 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math/base/special/atanh`][@stdlib/math/base/special/atanh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arctangent of a number.</span>
+-   <span class="package-name">[`@stdlib/math/iter/special/acosh`][@stdlib/math/iter/special/acosh]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the hyperbolic arccosine of each iterated value.</span>
+-   <span class="package-name">[`@stdlib/math/iter/special/asinh`][@stdlib/math/iter/special/asinh]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the hyperbolic arcsine of each iterated value.</span>
+-   <span class="package-name">[`@stdlib/math/iter/special/atan`][@stdlib/math/iter/special/atan]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the arctangent of each iterated value.</span>
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -186,8 +203,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-iter-special-atanh/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-iter-special-atanh?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/math-iter-special-atanh.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/math-iter-special-atanh/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
@@ -200,7 +221,17 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
 
+<!-- <related-links> -->
+
 [@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh
+
+[@stdlib/math/iter/special/acosh]: https://github.com/stdlib-js/math-iter-special-acosh
+
+[@stdlib/math/iter/special/asinh]: https://github.com/stdlib-js/math-iter-special-asinh
+
+[@stdlib/math/iter/special/atan]: https://github.com/stdlib-js/math-iter-special-atan
+
+<!-- </related-links> -->
 
 </section>
 
